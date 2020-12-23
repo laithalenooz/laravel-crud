@@ -32,6 +32,7 @@
 </nav>
 
 <div class="container mt-5 col-3">
+    <h1>Applicants form</h1>
     <form method="post" action="/create" enctype="multipart/form-data">
         @csrf
         <div class="mb-3">
